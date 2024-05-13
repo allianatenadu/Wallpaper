@@ -69,22 +69,58 @@ margin: 20px;
   margin-top: -30px;
 }
 
-.row {
-  display: -ms-flexbox; /* IE 10 */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.app {
+  color: grey;
+  margin-top: 20px;
+}
+
+.down {
+  margin-bottom: 15px;
+}
+
+.shift {
   display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
+.size {
+  line-height: 30px;
+  font-size: x-large;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.head {
+  margin-bottom: 20px;
+}
+
+.shift1 {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jump {
+  margin-bottom: 10px;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
